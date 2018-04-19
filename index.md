@@ -45,6 +45,10 @@ For testing the contracts on real network, you need to create account in [*infur
 2. Navigate to Inbox folder.
 3. Type ```npm install``` on command line.
 
+### Testing 
+
+```npm run test```
+
 ### Deploy to Rinkeby
 
 ```npm run deploy```
