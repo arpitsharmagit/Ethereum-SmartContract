@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Welcome to Ethereum World
 
-You can use the [editor on GitHub](https://github.com/arpitsharmagit/Ethereum-SmartContract/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+This is a boilerplate for developing, testing and deploying ethereum Smart Contracts to Main/Test networks.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Technologies/Packages used
 
-### Markdown
+This project is developed using Node.js so we have used below mentioned packages.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Solc@0.4.22 
+2. ganache-cli@6.1.0
+3. web3@1.0.0-beta.26
+4. mocha@5.1.1
 
-```markdown
-Syntax highlighted code block
+### Project Structure
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+-Inbox
+  -contrats
+    -Inbox.sol
+  -test
+    -Inbox.test.js
+  compile.js
+  deploy.js
+  package.js
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Building Project
 
-### Jekyll Themes
+1. Git Clone https://github.com/arpitsharmagit/Ethereum-SmartContract.git
+2. Navigate to Inbox folder.
+3. Type ```npm install``` on command line.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/arpitsharmagit/Ethereum-SmartContract/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Running
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with building or any query? [Email](mailto:mr.arpit.sharma@hotmail.com) and we’ll help you sort it out.
